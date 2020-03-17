@@ -8,66 +8,10 @@
     <meta name=“author” content=“ellypark188”>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!--browser default css -->
     <link rel="stylesheet" type="text/css" href="css/destyle.css">
-
-
-
-
-
-
-
-
-
-
-<style>
-    @font-face {
-        font-family: Galaxie; 
-        src: url(font/GalaxieCopernicus-Book.woff)}
-    @font-face {
-        font-family: HugeGothic;
-        src: url(font/HugeGothic-Bold.woff)}
-
-    h1 {font-family: HugeGothic; font-size: 300px; color:black; font-weight: 600;}
-    p {font-family: Galaxie; font-size: 14px; color: black; font-weight: 100;}
+    <link rel="stylesheet" type="text/css" href="hugeinc.css">
     
-    .home_section {width: 100vw; height: 100vh;}
-    .home_section_wrap {width: 100vw; height: 100vh;}
-    .home_section_next {height: 90px; width: 100vw; border: 1px solid}
-    .logo {width:60px; font-family: HugeGothic; font-size: 36px; color:deeppink; position:fixed; top:70px; left: 950px;}
-    .home_section_h1 {justify-content: center;}
-    .home_section_01_wrap {width: 100vw; height: 100vh; box-sizing: border-box; display: flex; background-image: url(img/hugeinc.png);}
-    .home_section_01_index {width: 12.5vw; height: 100vh; box-sizing: border-box; padding-top: 20vh;}
-    .home_section_01_index_wrap {justify-content: flex-end; display: flex;}
-    .home_section_01_index_number {font-family: HugeGothic; font-size: 20px; font-weight: 100; line-height: 22px; color: white;}
-    .home_section_01_index_line {border-bottom: 1px solid white; width: 5vw; height: 11px;}
-    .home_section_01_content {width: 75vw; height: 100vh; padding: 20vh 0; box-sizing: border-box;}
-    .home_section_01_content_wrap {width: 45%; height: 60vh;}
-    .home_section_01_content_subtitle {font-family: HugeGothic; font-size: 20px; font-weight: 100; color: white; line-height: 22px; letter-spacing: 1px;}
-    .home_section_01_content_subwrap {width: 100%; height: calc(100% - 22px); display: flex; flex-direction: column; justify-content: center;}
-    .home_section_01_content_title {font-family: HugeGothic; font-size: 72px; font-weight: 100; color: white;}
-    .home_section_01_content_line {border-top: 1px solid white; width: 5vw; margin: 30px 0;}
-    .home_section_01_content_description {font-family: Galaxie; font-size: 18px; color: white; line-height: 22px; width: 85%;}
-    .margin_auto {margin: 0 auto;}
-    .text_align_center {text-align: center;}
-    .margin_top_36 {margin-top: 36px;}
-    .margin_top_48 {margin-top: 48px;}
-    .margin_top_60 {margin-top: 60px;}
-    .margin_top_72 {margin-top: 72px;}
-    .margin_top_96 {margin-top: 96px;}
-    .margin_top_348 {margin-top: 348px;}
-    .margin_top_650 {margin-top: 650px;}
-    .vl {border-left: 1px solid black; height: 36px; position: fixed; bottom: 0; left: 480px;}
-    .hl {border-left: 30px solid white; height: 1px; position: relative; top: 200px; left: 70px;}
-  
-</style>
-
-
-
-
-
-
-
 
 
 <script>
@@ -77,13 +21,14 @@
 </head>
 
 <body>
-    <!-- first page -->
+    <!-- cover page -->
+    <section>
         <div style="width: 74px; height: 74px; background-color: white; position: fixed; left:calc(50vw - 37px); top: 58px; display: flex; justify-content: center; align-items: center;">
             <div style="width: 48px; height: 48px; color: #ea178c; font-size: 36px; font-family: HugeGothic; font-weight:600; text-align: center;">H</div>
         </div>
-        <section class="home_section">
+        <section class="home_sec">
             <div class="home_section_wrap">
-                <div class="home_section_h1"><h1 class="text_align_center margin_top_348" style="letter-spacing: -5px;">Hello.</h1></div>
+                <div class="home_h1"><h1 class="text_align_center margin_top_348" style="letter-spacing: -5px;">Hello.</h1></div>
                 <div style="height: 100vh">
                 <p style="font-size: 16px; font-family: Galaxie; font-weight: 100; position: absolute; bottom: 50px; left:calc(50vw - 58px);">Today at Huge.</p>
                 <div class="vl"></div>
@@ -95,25 +40,25 @@
 
 
 
-<!--second page-->
-<section class="home_section_01">
-    <div class="home_section_01_wrap">
-        <div class="home_section_01_index">
-           <div class="home_section_01_index_wrap">
-               <p class="home_section_01_index_number">01.</p>
-                <div class="home_section_01_index_line">-</div>
+<!--first page-->
+<section class="home_sec">
+    <div class="home_sec_wrap">
+        <div class="home_index">
+           <div class="home_index_wrap">
+               <p class="home_index_no">01.</p>
+                <div class="home_index_line"></div>
             </div> 
         </div>
         
-        <div class="home_section_01_content">
+        <div class="home_index_cont">
 
-            <div class="home_section_01_content_wrap">
-                <div class="home_section_01_content_subtitle">Win</div>
+            <div class="home_index_cwrap">
+                <div class="home_index_csub">Win</div>
 
-                <div class="home_section_01_content_subwrap">
-                    <h2 class="home_section_01_content_title">Huge Thanks.</h2>
-                    <div class="home_section_01_content_line">-</div>
-                    <h5 class="home_section_01_content_description">Campaign US named Huge its 2019 Innovation Agency of the Year</h5>
+                <div class="home2_index_csubwrap">
+                    <h2 class="home_ctitle">Huge Thanks.</h2>
+                    <div class="home_cline"></div>
+                    <h5 class="home_cdscrpt">Campaign US named Huge its 2019 Innovation Agency of the Year</h5>
                 </div>
             </div>
         </div>
@@ -123,11 +68,209 @@
         </div>
     
     </div>
+</section>
 
+
+
+
+<!--second page-->
+<section class="home_sec">
+    <div class="home_sec2_wrap">
+        <div class="home_index">
+           <div class="home_index_wrap">
+               <p class="home_index_no">02.</p>
+                <div class="home_index_line">-</div>
+            </div> 
+        </div>
+        
+        <div class="home_index_cont">
+
+            <div class="home_index_cwrap">
+                <div class="home_index_csub">Work</div>
+
+                <div class="home2_index_csubwrap">
+                    <h2 class="home_ctitle">#FreeThePeriod.</h2>
+                    <div class="home_cline">-</div>
+                    <h5 class="home_cdscrpt">To highlight period inequality, Huge partnered with PERIOD. to build a coin-operated toilet paper dispenser and installed it in men's restrooms.</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="home_section_01_detail">
+
+        </div>
+    
+    </div>
+</section>
 
 
 
 
 <!--third page-->
+<section class="home_sec">
+    <div class="home_sec3_wrap">
+        <div class="home_index">
+           <div class="home_index_wrap">
+               <p class="home_index2_no">03.</p>
+                <div class="home_index2_line"></div>
+            </div> 
+        </div>
+        
+        <div class="home_index_cont">
+
+            <div class="home_index_cwrap">
+                <div class="home_index2_csub">Leadership.</div>
+
+                <div class="home2_index_csubwrap">
+                    <h2 class="home_ctitle2">Huge Appointment.</h2>
+                    <div class="home_section_02_content_line"></div>
+                    <h5 class="home_cdscrpt2">After three years leading global strategic growth for Huge, matt Weiss has been appointed President, Huge BK.</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="home_section_01_detail">
+
+        </div>
+    
+    </div>
+</section>
+
+
+
+
+
+<!--4th page-->
+<section class="home_sec">
+    <div class="home_sec4_wrap">
+        <div class="home_index">
+           <div class="home_index_wrap">
+               <p class="home_index_no">04.</p>
+                <div class="home_index_line"></div>
+            </div> 
+        </div>
+        
+        <div class="home_index_cont">
+
+            <div class="home_index_cwrap">
+                <div class="home_index_csub">Work.</div>
+
+                <div class="home2_index_csubwrap">
+                    <h2 class="home_ctitle">It's in the bag.</h2>
+                    <div class="home_cline"></div>
+                    <h5 class="home_cdscrpt">Huge rebrands grocery delivery service Shipt.</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="home_section_01_detail">
+
+        </div>
+    
+    </div>
+</section>
+
+
+
+
+
+
+<!--5th page-->
+<section class="home_sec">
+    <div class="home_sec5_wrap">
+        <div class="home_index">
+           <div class="home_index_wrap">
+               <p class="home_index2_no">05.</p>
+                <div class="home_index2_line"></div>
+            </div> 
+        </div>
+        
+        <div class="home_index_cont">
+
+            <div class="home_index_cwrap">
+                <div class="home_index2_csub">Leadership.</div>
+
+                <div class="home2_index_csubwrap">
+                    <h2 class="home_ctitle2">Hello Fura.</h2>
+                    <div class="home_section_02_content_line"></div>
+                    <h5 class="home_cdscrpt2">Huge welcomes Fura Johannesdottir as Chief Design Officer.</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="home_section_01_detail">
+
+        </div>
+    
+    </div>
+</section>
+
+
+
+
+<!-- 6th page -->
+    <section class="home_sec">
+        <div class="home_sec6_wrap">
+            <div class="home_index">
+               <div class="home_index_wrap">
+                   <p class="home_index_no">06.</p>
+                    <div class="home_index_line">-</div>
+                </div> 
+            </div>
+            
+            <div class="home_index_cont">
+    
+                <div class="home_index_cwrap">
+                    <div class="home_index_csub">Work.</div>
+    
+                    <div class="home2_index_csubwrap">
+                        <h2 class="home_ctitle">#ColorCommentary.</h2>
+                        <div class="home_cline">-</div>
+                        <h5 class="home_cdscrpt">Huge partnered with Pantone on a social media campaign for the Big Game.</h5>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="home_section_01_detail">
+    
+            </div>
+        
+        </div>
+</section>
+
+
+
+
+
+
+<!--7th page-->
+<section class="home_sec">
+    <div class="home_sec7_wrap">
+        <div class="home_index">
+           <div class="home_index_wrap">
+               <p class="home_index2_no">07.</p>
+                <div class="home_index2_line"></div>
+            </div> 
+        </div>
+        
+        <div class="home_index_cont">
+
+            <div class="home_index_cwrap">
+                <div class="home_index2_csub">Culture.</div>
+
+                <div class="home2_index_csubwrap">
+                    <h2 class="home_ctitle2">Black&nbsp;History&nbsp;Month.</h2>
+                    <div class="home_section_02_content_line"></div>
+                    <h5 class="home_cdscrpt2">This is not a moment, issa movement. H by Jacqueline DeBerry</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="home_section_01_detail">
+
+        </div>
+    
+    </div>
+</section>
 </body>
 </html>
